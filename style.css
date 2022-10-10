@@ -34,17 +34,18 @@ body {
   background-image: url(./images/art.png);
   background-size: cover;
   height: 100%;
-  width: 29%;
+  width: 235px;
 }
 
 .logo {
   color: white;
-  padding: 0 15px;
-  font-size: 1.5rem;
+  padding: 0 10px;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 18vh;
+  top: 17vh;
   position: relative;
   background-color: rgb(34, 41, 87);
   box-shadow: rgb(22, 16, 43) 0px 10px 10px -10px;
@@ -59,6 +60,7 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  padding-left: 50px;
 }
 .input {
   display: flex;
@@ -68,12 +70,69 @@ body {
 }
 
 input {
+  color: #ffffff;
+  font-size: 1.3rem;
   background: #222957;
   outline: none;
   border: none;
   border-bottom: 2px solid rgb(115, 117, 151);
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 label {
   color: rgb(115, 117, 151);
   text-transform: uppercase;
+  font-weight: 600;
+}
+
+button {
+  color: #ffffff;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 10px;
+  width: 200px;
+  border: none;
+  background: #e6226a;
+  margin-top: 25px;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: rgb(22, 16, 43) 0px 10px 10px -10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #ff2977;
+}
+
+.form-title {
+  width: 100%;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.form-title-sub {
+  width: 100%;
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.sign-in {
+  color: #e6226a;
+}
+.sign-in:hover {
+  color: #e6226a;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.title-section {
+  margin: 10px;
+  padding-bottom: 40px;
 }
