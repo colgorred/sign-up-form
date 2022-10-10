@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Finlandica", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: rgb(115, 117, 151);
+  background: linear-gradient(
+    219deg,
+    rgba(115, 117, 151, 1) 0%,
+    rgba(63, 68, 149, 1) 100%
+  );
+}
+
+.content {
+  display: flex;
+  background: #222957;
+  width: 800px;
+  height: 700px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.picture {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/art.png);
+  background-size: cover;
+  height: 100%;
+  width: 29%;
+}
+
+.logo {
+  color: white;
+  padding: 0 15px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 18vh;
+  position: relative;
+  background-color: rgb(34, 41, 87);
+  box-shadow: rgb(22, 16, 43) 0px 10px 10px -10px;
+}
+
+.logo > h1 {
+  margin: 10px 0;
+}
+.right {
+}
+.form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 40%;
+}
+
+input {
+  background: #222957;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(115, 117, 151);
+}
+label {
+  color: rgb(115, 117, 151);
+  text-transform: uppercase;
+}
